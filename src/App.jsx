@@ -31,7 +31,18 @@ const portfolioData = {
     lastName: "Malviya",
     title: "Aspiring Full Stack Developer | DSA Enthusiast",
     headline: "Crafting Web Experiences with Code",
-    about: "To strengthen my expertise in full-stack web development using React.js, Node.js, Express.js, MongoDB, HTML, CSS, and JavaScript, while continuously improving my problem-solving and algorithmic skills. I aim to build scalable, efficient, and user-friendly web applications that deliver real-world impact and reflect clean, maintainable code practices.",
+    about: "I am a passionate Full-Stack Web Developer specializing in 
+React.js, Node.js, Express.js, MongoDB, HTML, CSS, and JavaScript. 
+I build scalable, efficient, and user-friendly web applications that solve real-world problems 
+and showcase clean, maintainable code.
+
+Alongside development, I actively enhance my problem-solving skills through 
+Data Structures & Algorithms (DSA) and competitive programming challenges, 
+allowing me to approach complex problems with a structured, analytical mindset.
+
+I enjoy exploring emerging technologies and integrating them into impactful projects. 
+My goal is to contribute to meaningful software solutions while continuously growing 
+as a versatile and innovative developer.",
     contact: {
         email: "yashmalviya1915@gmail.com",
         phone: "+91 9305045837",
