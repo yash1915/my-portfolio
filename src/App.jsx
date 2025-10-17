@@ -229,7 +229,7 @@ const Hero = ({ data, onImageChange }) => {
                                     <TypeAnimation
                                         sequence={[
                                             'Yash Malviya',
-                                            5000,
+                                            3000,
                                             '',
                                             500
                                         ]}
