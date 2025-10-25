@@ -425,7 +425,7 @@ const Footer = ({ contact }) => {
                         <img src="/icons8-codechef-50.png" alt="CodeChef" className="h-6 w-6 transition-transform duration-300 hover:scale-110" />
                     </a>
                     {/* Codolio Icon */}
-                    <a href={portfolioData.contact.profiles.find(p => p.name === 'View Source Code on GitHub').url} target="_blank" rel="noopener noreferrer" className="hover:text-teal-400 transition-colors duration-300" title="Codolio">
+                    <a href={portfolioData.contact.profiles.find(p => p.name === 'View Source Code on GitHub').url} target="_blank" rel="noopener noreferrer" className="hover:text-teal-400 transition-colors duration-300" title="View Source Code on GitHub">
                         <ExternalLinkIcon className="h-6 w-6" />
                     </a>
                 </div>
