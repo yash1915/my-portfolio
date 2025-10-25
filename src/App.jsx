@@ -41,7 +41,7 @@ const portfolioData = {
         profiles: [
             { name: "LeetCode", url: "https://leetcode.com/u/YASH_MALVIYA/", icon: "icons8-leetcode-50.png" },
             { name: "CodeChef", url: "https://www.codechef.com/users/yash_malviya", icon: "icons8-codechef-50.png" },
-            { name: "Codolio", url: "https://codolio.com/profile/yash_malviya", icon: "ExternalLinkIcon" },
+            { name: "View Source Code on GitHub", url: "https://github.com/yash1915/my-portfolio" },
             { name: "Chess.com", url: "https://www.chess.com/member/the_yash_malviya108108108", icon: "icons8-chess-50.png" }
         ]
     },
@@ -425,7 +425,7 @@ const Footer = ({ contact }) => {
                         <img src="/icons8-codechef-50.png" alt="CodeChef" className="h-6 w-6 transition-transform duration-300 hover:scale-110" />
                     </a>
                     {/* Codolio Icon */}
-                    <a href={portfolioData.contact.profiles.find(p => p.name === 'Codolio').url} target="_blank" rel="noopener noreferrer" className="hover:text-teal-400 transition-colors duration-300" title="Codolio">
+                    <a href={portfolioData.contact.profiles.find(p => p.name === 'View Source Code on GitHub').url} target="_blank" rel="noopener noreferrer" className="hover:text-teal-400 transition-colors duration-300" title="Codolio">
                         <ExternalLinkIcon className="h-6 w-6" />
                     </a>
                 </div>
