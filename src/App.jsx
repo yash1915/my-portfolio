@@ -105,7 +105,8 @@ const portfolioData = {
             role: "Summer Intern",
             company: "Signal and Telecom Training Centre (N.E Railway, Gorakhpur)",
             date: "June 2025 - July 2025",
-            description: "•	Observed railway signalling systems and data loggers to understand real-time safety and monitoring workflows. •	Assisted engineers in identifying and reporting system irregularities during routine checks."
+            description: "•	Observed railway signalling systems and data loggers to understand real-time safety and monitoring workflows." 
+                         "•	Assisted engineers in identifying and reporting system irregularities during routine checks."
         }
     ],
     education: [
