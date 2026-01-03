@@ -46,14 +46,17 @@ const portfolioData = {
         ]
     },
     skills: {
-        technical: ["C", "C++", "HTML5", "CSS3", "JavaScript", "Node.js", "Express.js", "MongoDB"],
-        curriculum: ["Data Structures & Algorithms (DSA)", "Object Oriented Programming (OOP)"],
+        Backend: ["Node.js", "Express.js", "REST APIs", "JWT"],  
+        Frontend: ["HTML", "CSS", "JavaScript"],
+        Databases: ["MongoDB", "MySQL"],
+        Programming:["C++"],
+        curriculum: ["Data Structures & Algorithms (DSA)", "Object Oriented Programming (OOP)", "DBMS"],
         interests: ["Software Development", "Competitive Programming", "IoT"],
         tools: ["GitHub", "VS Code", "Postman", "MS Word"],
     },
     projects: [
         {
-            title: "Full Stack Blog Application",
+            title: "Full Stack User Authenticated Blog Application",
             description: "Engineered a full-stack blog application with 20+ RESTful API endpoints for complete post management, including nested comments, likes, and large-scale media uploads via Cloudinary. I built a secure, token-based authentication system using JWT. The system also features OTP-based email verification and a secure password reset flow to prevent unauthorized access. The application is deployed on Render and Vercel for high availability and seamless performance.",
             tech: ["Node.js", "Express.js", "MongoDB", "HTML", "CSS", "JS", "JWT", "Cloudinary","OTP Verification"],
             link: "https://blog-frontend-new-plum.vercel.app/",
@@ -63,11 +66,11 @@ const portfolioData = {
             ]
         },
         {
-                title: "WSN - Based Smart Industrial Safety and Hazard Detection System",
+                title: "Wireless Sensor Network Based Smart Industrial Safety and Hazard Detection System",
                 type:'College Team Project',
                 description:"In a Team of four, we create a scalable and cost-effective system for real-time hazard detection in industrial environments. Integrated ESP32 with MQ-2, DHT22, PIR, and Flame sensors. Built a full-stack web dashboard (Node.js, Express, MongoDB) and programmed the microcontroller in C++. Live monitoring, historical data graphs, and automated email & buzzer alerts.",
                 tech: ["ESP32", "MQ-2 Sensor", "DHT22 Sensor", "PIR Sensor", "Flame Sensor","HTML","CSS","JS","Node.js", "Express.js", "MongoDB", "C++","WebSockets","Team Collaboration"],
-                link: "#", // Hardware project ka link nahi hai
+                link: "https://wsnfrontend.vercel.app/", 
                 github: [
                 { type: 'Frontend', url: 'https://github.com/yash1915/wsnfrontend' },
                 { type: 'Backend', url: 'https://github.com/yash1915/wsnbackend' }
@@ -102,7 +105,7 @@ const portfolioData = {
             role: "Summer Intern",
             company: "Signal and Telecom Training Centre (N.E Railway, Gorakhpur)",
             date: "June 2025 - July 2025",
-            description: "Monitored 4+ railway signals and a data logger to ensure real-time safety. Diagnosed and reported a system fault, improving maintenance and reliability."
+            description: "•	Observed railway signalling systems and data loggers to understand real-time safety and monitoring workflows. •	Assisted engineers in identifying and reporting system irregularities during routine checks."
         }
     ],
     education: [
